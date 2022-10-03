@@ -1,0 +1,2 @@
+
+print(story.startswith("Once"))

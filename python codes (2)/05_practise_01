@@ -1,0 +1,4 @@
+Greeting = "Good Afternoon,"
+name = input("Enter your name:\n")
+a = Greeting + name
+print(a)

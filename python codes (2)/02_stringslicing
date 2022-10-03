@@ -1,0 +1,19 @@
+# Greating = "Good Morning, "
+# name = "Chirag"
+
+
+# Concatenating string
+   # print(Greating + name)
+   #  # print(type(name))
+
+# name = "Chirag"
+# print(name[-4])
+# print(name[1:6])
+
+# print(name[:5]) # it will make it [0:5]
+# print(name[0:]) # it will take the last integer and it will print the full name
+# c = name[-5:-1] # it is same as name[1:4]
+# print(c)
+
+name = "Chirag"
+print(name[2::3])

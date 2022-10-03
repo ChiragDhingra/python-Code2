@@ -1,0 +1,11 @@
+letter = '''Dear <|NAME|> ,
+Greeting from Google,you are selected for software programmer.
+You are selected!
+Great day a head,
+Date: <|Date|>
+'''
+name = input("Enter your Name\n")
+date = input("Enter Date\n")
+letter = letter.replace("<|NAME|>",name)
+letter = letter.replace("<|Date|>",date)
+print(letter)
